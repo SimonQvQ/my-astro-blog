@@ -1,42 +1,45 @@
 {
   "site": {
     "url": "https://simonqvq.us.kg",
-    "title": "Simonの",
-    "description": "阿巴阿巴",
-    "keywords": "Gyoza,blog,Astro,Simon",
+    "title": "SimonのBlog",
+    "description": "这是 Simon 的博客。我会在里面发一些有意思的东西。",
+    "keywords": "Gyoza,blog,Astro,theme,Simon,博客",
     "lang": "zh-CN",
     "favicon": "/favicon.ico",
     "appleTouchIcon": "/apple-touch-icon.png"
   },
   "author": {
-    "name": "Simon",
-    "avatar": "https://s2.loli.net/2024/04/30/ozsnuS5Ihf3xMBG.webp"
+    "name": "simon", 
+    "avatar": "https://sm.ms/image/s9cOHfVbTDpBJEe"
   },
   "hero": {
-    "name": "Gyoza",
+    "name": "Gyoza-Lucide",
     "bio": "A static blog template build with Astro and React.",
     "description": "Clean, Cute, Fast.",
     "socials": [
       {
         "name": "Github",
-        "icon": "icon-github",
-        "url": "https://github.com/lxchapu/astro-gyoza",
+        "icon": "Github",
+        "url": "https://github.com/simonqvq",
         "color": "rgb(24, 23, 23)"
       },
       {
-        "name": "X",
-        "icon": "icon-x",
-        "url": "https://twitter.com/lxchapu",
         "color": "rgb(36, 46, 54)"
       },
       {
         "name": "Email",
-        "icon": "icon-mail",
-        "url": "mailto:lxchapu@outlook.com",
+        "icon": "Mail",
+        "url": "mailto:simhang@outlook.com",
         "color": "rgb(212, 70, 56)"
+      },
+      {
+        "name": "Bilibili",
+        "icon": "Bilibili",
+        "url": "https://bilibili.com/space/622839471",
+        "color": "rgb(255, 102, 153)"
       }
     ],
-    "yiyan": "当第一颗卫星飞向大气层外，我们便以为自己终有一日会征服宇宙。"
+    "yiyan": "我们登上的并非我们所选择的舞台，演出并非我们所选择的剧本。"
   },
   "color": {
     "accent": [
@@ -67,27 +70,27 @@
     {
       "name": "首页",
       "link": "/",
-      "icon": "icon-pantone"
+      "icon": "House"
     },
     {
       "name": "归档",
       "link": "/archives",
-      "icon": "icon-archive"
+      "icon": "Archive"
     },
     {
       "name": "项目",
       "link": "/projects",
-      "icon": "icon-flask"
+      "icon": "Presentation"
     },
     {
       "name": "关于",
       "link": "/about",
-      "icon": "icon-ghost"
+      "icon": "AtSign"
     },
     {
       "name": "友链",
       "link": "/friends",
-      "icon": "icon-hearts"
+      "icon": "Handshake"
     }
   ],
   "posts": {
@@ -103,9 +106,13 @@
     "wechat": "https://object.lxchapu.com/bed%2F2024%2F0507_6e3e8f73df2d4e6d.webp"
   },
   "analytics": {
-    "enable": false,
+    "enable": true,
     "google": {
-      "measurementId": ""
+      "measurementId": "G-RV6B7CSFQ0",
+      "config": {
+        "fallback": true,
+        "endpoint": "https://img.vibecho.com/gcollect"
+      }
     },
     "umami": {
       "serverUrl": "",
@@ -113,6 +120,17 @@
     },
     "microsoftClarity": {
       "projectId": ""
+    }
+  },
+  "follow": {
+    "enable": false,
+    "feedId": "",
+    "userId": ""
+  },
+  "adsense": {
+    "enable": true,
+    "google": {
+      "client": "ca-pub-8800087783186213"
     }
   }
 }
