@@ -51,7 +51,7 @@ export function PostCopyright({
           本文采用
           <a
             className="hover:underline hover:text-accent underline-offset-2"
-            href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"
+            href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
             target="_blank"
             rel="noopener noreferrer"
           >

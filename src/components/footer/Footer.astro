@@ -23,7 +23,16 @@ const wordCountStr = (wordCount / 1000).toFixed(1) + 'k'
       <Link href="https://github.com/lxchapu/astro-gyoza">Gyoza</Link>
     </div>
     <div class="space-x-1">
-      <span>&copy;{copyDate} <Link href="/">{author.name}</Link>.</span>
+      <span>&copy;{copyDate} <Link href="/">{author.name}</Link>. 保留部分权利。</span>
+      <div>
+        <span>
+          除非另有说明，否则本网站上内容均根据
+          <Link href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">
+            CC BY-NC-SA 4.0 
+          </Link>
+          进行许可。
+        </span>
+      </div>
       <Link href="/rss.xml" data-no-swup>
         <i class="iconfont icon-rss"></i>
         <span>RSS</span>
